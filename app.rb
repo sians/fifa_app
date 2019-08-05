@@ -1,11 +1,6 @@
-require_relative 'player.rb'
-require_relative 'player_scrapper.rb'
-require_relative 'players_controller.rb'
-require_relative 'router.rb'
+require_relative "config/application"
+require_relative "router"
 
-base_url = "https://sofifa.com/players?keyword="
+Router.new.run
 
-controller = Controller.new(base_url)
-router = Router.new(controller)
-
-router.run
+# base_url = "https://sofifa.com/players?keyword="
