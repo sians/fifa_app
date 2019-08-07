@@ -1,0 +1,65 @@
+@import url("components/form.css");
+
+body {
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  text-align: center;
+
+}
+
+/*.   L. O.  G.  I.   N.    */
+
+.login {
+  margin: 150px auto;
+  width: 300px;
+}
+
+.login-form {
+  background-color: rgb(96,121,150, 0.1);
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.login h3 {
+  margin-bottom: 30px;
+  color: #FFBF6B;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+fieldset {
+  border: none;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.text-field {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 240px;
+}
+
+.form-btn-submit {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  width: 120px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.form-btn-submit:hover {
+  background-color: #FFBF6B;
+  color: white;
+}
