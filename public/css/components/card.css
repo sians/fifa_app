@@ -1,0 +1,99 @@
+.login-card {
+  width: 300px;
+  height: 550px;
+  background-color: rgba(9, 19, 11, 0.7);
+  display: flex;
+  border-radius: 10px;
+  margin: 40px auto;
+  color: rgba(250, 250, 250, .7);
+}
+
+.login-card h2 {
+  color: rgba(250, 250, 250, 1);
+  margin: 25px 0px;
+}
+
+.login-card a {
+  color: rgba(205, 125, 105,1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-card p:first-child {
+  margin: 0px 20px;
+}
+
+.login-card p {
+  font-size: 11px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  margin: 10px 20px 20px;
+}
+
+.side-banner {
+  display: none;
+}
+
+.login-content {
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social a {
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 12px;
+  margin-right: 10px;
+
+}
+
+i {
+  margin-right: 5px;
+}
+
+@media (min-width: 600px) {
+  .login-card {
+    width: 750px;
+    margin-top: 60px;
+  }
+
+  .side-banner {
+    width: 250px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-style: italic;
+    justify-content: center;
+    background-color: rgba(9, 19, 11, 0.9);
+    border-radius: 10px 0px 0px 10px ;
+  }
+
+  .side-banner img {
+    position: absolute;
+    left: -20px;
+    top: 80px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .side-banner p {
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+  }
+
+  .login-content {
+    width: 500px;
+  }
+
+}

@@ -1,19 +1,41 @@
-@import url("components/form.css");
+/* Fonts */
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+@import url("/css/components/container.css");
+@import url("/css/components/button.css");
+@import url("/css/components/card.css");
+@import url("/css/components/form.css");
 
 body {
   font-family: forma-djr-display, sans-serif;
   font-weight: 200;
   font-style: normal;
   letter-spacing: 2px;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   margin: 0px;
   text-align: center;
 
 }
 
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+
+
+
+
 /*.   L. O.  G.  I.   N.    */
+/*
+
 
 .login {
   margin: 150px auto;
@@ -63,3 +85,4 @@ fieldset {
   background-color: #FFBF6B;
   color: white;
 }
+*/

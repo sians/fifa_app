@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>my player lists</h2>
+
+  <div class="player_lists_container">
+    <% if @user.player_lists.empty? %>
+      <p>You don't have any player lists! <a href="/create_player_list">Create one?</a></p>
+    <% end %>
+    <% @user.player_lists.each do |player_list| %>
+      <div class="player_list_item">
+        <div class="list_icon">
+
+        </div>
+        <div class="list_name">
+
+        </div>
+        <div class="num_players">
+          <%= player_list.size %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

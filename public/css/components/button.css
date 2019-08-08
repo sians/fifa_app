@@ -1,0 +1,42 @@
+.btn {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,4,15,0.7);
+  cursor: pointer;
+}
+
+.btn-submit {
+  border-radius: 30px;
+  background-color: rgba(98,162,134, 0.3);
+  border: solid 1px rgba(98,162,134, 1);
+  width: 200px;
+  padding: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-submit:hover {
+  background-color: rgba(98,162,134, 1);
+  color: black;
+}
+
+
+.btn-social {
+  background-color: rgba(205, 125, 105,0.3);
+  width: 100px;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  border: solid 1px rgba(205,125,105, 0.8);
+}
+
+.btn-social i {
+  font-size: 16px;
+}
+
+.btn-social:hover {
+  background-color: rgba(205,125,105, 1);
+  color: black;
+}

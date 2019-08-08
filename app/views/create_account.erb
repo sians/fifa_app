@@ -7,13 +7,16 @@
       <p>2018 &copy; coolpeople</p>
     </div>
     <div class="login-content">
-      <p id="signin">Existing user? Click here to <a href="/">create an account</a></p>
-      <h2>Login</h2>
+      <p id="signin">Existing user? Click here to <a href="/login">log in</a></p>
+      <h2>Create an account</h2>
 
-      <form class="login-form" action="/player_lists" method="post">
+      <form class="create-account-form" action="/player_lists" method="post">
         <input type="text" name="email" placeholder="c.ronaldo@juventus.fc">
+        <input type="text" name="first_name" placeholder="Christiano">
+        <input type="text" name="last_name" placeholder="Ronaldo">
         <input type="password" name="password" placeholder="password...">
 
+        <p>By clicking "continue" I agree to the fifappy <a href="">terms & conditions</a></p>
         <input type="submit" value="Continue" class="btn btn-submit">
       </form>
 
