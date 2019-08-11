@@ -1,0 +1,63 @@
+
+
+.player_list_item {
+  background-color: rgba(98,162,134, 0.3);
+  height: 70px;
+  color: rgba(98,162,134, 1);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.player_list_item:hover {
+  cursor: pointer;
+  background-color: rgba(98,162,134, 1);
+  color: white;
+
+}
+
+.player_list_item:first-child {
+  margin-top: 40px;
+}
+
+
+.create-list-content {
+  text-align: center;
+}
+
+.add-button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  background-color: rgba(0,0,0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 5px 8px rgba(230,230,230, 0.5);
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: rgba(0,0,0, 0.3);
+}
+
+/*.add_text {
+  position: absolute;
+  color: red;
+  opacity: 0.1;
+}
+
+.add_text:hover {
+  position: absolute;
+  opacity: 0.9;
+  font-weight: bold;
+}*/
+
+.add-button i {
+  font-size: 150px;
+}

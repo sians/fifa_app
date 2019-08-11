@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2019_08_06_173516) do
   end
 
   create_table "player_lists", force: :cascade do |t|
+    t.string "name"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -42,6 +43,8 @@ ActiveRecord::Schema.define(version: 2019_08_06_173516) do
     t.string "username"
     t.string "password"
     t.string "email"
+    t.string "first_name"
+    t.string "last_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

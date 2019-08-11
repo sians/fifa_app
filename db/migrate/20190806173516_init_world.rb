@@ -4,10 +4,13 @@ class InitWorld < ActiveRecord::Migration[5.2]
       t.string :username
       t.string :password
       t.string :email
+      t.string :first_name
+      t.string :last_name
       t.timestamps #null: false
     end
 
     create_table :player_lists do |t|
+      t.string :name
       t.references :user, foreign_key: true
       t.timestamps #null: false
     end
