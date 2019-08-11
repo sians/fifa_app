@@ -15,9 +15,9 @@ class InitWorld < ActiveRecord::Migration[5.2]
       t.timestamps #null: false
     end
 
-    create_table :player_list_players do |t|
+    create_table :player_lists_players do |t|
       t.references :player_list, foreign_key: true
-      t.references :players, foreign_key: true
+      t.references :player, foreign_key: true
       t.timestamps #null: false
     end
 
